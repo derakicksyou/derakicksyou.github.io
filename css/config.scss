@@ -3,39 +3,21 @@ $black:#111;
 $white:#fff;
 $red:#c74657;
 $blue:#7f9cb4;
+$pink: rgb(252,229,239);
+$gray-text: rgb(90,87,88);
+$gray-bg: #aaa;
 
 $background:#f4f3ee;
-$primary-link:#ed1c24;
+$primary-link:#469389;
 
 //------------------------- Elements
-$marginSize: 30px;
-$border: dashed 1px #dddddd;
+$serif:"adobe-caslon-pro",serif;
+$sans:'Source Sans Pro', Arial, sans-serif;
 
 //------------------------- Defaulted Mixins
 @mixin base-type {
-//    font-family:'Cabin', arial,sans-serif;
-    font-family:'Source Sans Pro', Arial, sans-serif;;
+    font-family:$sans;
   	line-height:1.1em;
-}
-
-@mixin breakpoint($point) {
-  @if $point == desk { @media only screen and (min-width : 1024px) { @content; } }
-  @else if $point == tablet { @media only screen and (min-width : 768px) and (max-width : 1024px) { @content; } }
-  @else if $point == land-tablet { @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { @content; } }
-  @else if $point == port-tablet { @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { @content; } }
-  @else if $point == desk-tablet { @media only screen  and (min-width : 768px) { @content; } }
-  @else if $point == iphone { @media only screen and (min-width : 320px) and (max-width : 480px)  { @content; } }
-}
-
-@mixin max-width { max-width:950px; margin:auto; }
-@mixin float { display:inline-block; vertical-align:top; }
-@mixin boxsize { box-sizing: border-box;	-webkit-box-sizing: border-box;	-moz-box-sizing: border-box; }
-@mixin unstyled { list-style-type: none; margin: 0; padding: 0; }
-@mixin ir { display:block; text-indent:-150%; overflow:hidden; white-space:nowrap; background-repeat: no-repeat; font-size:0; line-height:0; }
-@mixin clearfix() {
-    & { *zoom: 1; }
-    &:before, &:after { content: ""; display: table; }
-    &:after { clear: both; }
 }
 
 //------------------------- Input Required Mixins

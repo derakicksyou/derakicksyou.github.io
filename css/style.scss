@@ -1,0 +1,169 @@
+@import "config";
+
+html, body {
+    background-color:$pink;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+	@include base-type;
+	color:$black;
+}
+
+.main {
+    background-color:$pink;
+    margin:auto;
+    max-width:920px;
+    padding:40px 0;
+    overflow:hidden;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.float {float:left;}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $serif;
+    font-weight:100;
+    margin:0; 
+}
+
+h1 { 
+    font-size:3.5em; /*40pt*/
+    line-height:2em;
+	font-style: italic;
+	text-indent:20px;
+//	padding-left:;
+    
+    .callout {
+		font-family: $sans;
+		font-style: normal;
+        font-weight:900;
+        font-size: 1.5em;
+		text-indent:-10px;
+        line-height:1rem;
+        margin:0.025em 0 1em 0;
+        text-transform:uppercase;
+    }
+} 
+
+h2 { 
+	font-family: $sans;
+    font-size:1.4em; /*14pt*/
+    line-height:1.9em;
+	font-weight:700;
+	text-transform:uppercase;
+    } 
+    
+h3 { 
+//    color:$gray-text;
+    font-size:1.25em; /*12pt*/
+    font-style: italic;
+    
+    a {
+        color:$gray-text;
+        text-decoration:none;
+    }
+    
+    a:hover {
+        text-decoration:underline;
+    }
+}
+
+p { 
+    font-size: 1.1em; /*16pt*/
+    line-height:1.325em;
+	font-weight:300;
+    margin:0.325em 0 1em 0;    
+}
+
+hr {
+    background-color:$gray-bg;
+    border:0;
+    height:1px;
+    margin: 0.825em 0;
+    clear:both;
+}
+
+article {
+    margin:1.125em 0;
+}
+
+.superline {
+    
+    .logo { margin-right: 0.825em;
+			margin-top: -0.425em;
+		    margin-bottom: 0.825em;			
+		 }
+}
+
+/*Small screens - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@media only screen and (max-width: 480px), print {
+    
+    .web-view {
+        display:none !important;
+    }
+    
+    .superline{
+        .logo {
+            float:none;            
+        } 
+        
+        h3 {
+            float:none;
+
+            a {
+                text-decoration:underline;
+            }
+    
+            a:hover {
+                text-decoration:none;
+            }
+
+            span {
+                display:block;
+            }
+        }
+    } 
+    
+    h1 { 
+        font-size:1.825em; /*40pt*/
+		line-height:3rem;
+		text-indent:0;
+    
+        .callout {
+            font-size: 1.725em;
+            line-height:3rem;
+			text-indent:0;
+        }  
+    }
+    
+    h2 { 
+        font-size:1.3em; /*14pt*/
+        } 
+    
+    h3 { 
+        font-size:1.125em; /*12pt*/
+    }
+     
+    p { 
+        font-size: 0.725em; /*8pt*/
+    }
+    
+    .main {
+        padding:10px 0 40px 0;
+    }
+    
+}
+
+/*Print - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@media print {
+    hr {
+        background-color:none;
+        border-top:solid 1px $gray-bg;
+        }  
+}

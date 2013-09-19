@@ -13,10 +13,13 @@
     {% include head.html %}
 </head>
 <body class="{{ page.index }}">
-{% include header.html %}
-<section id="main">
-                {{ content }}
-</section>
-{% include footer.html %}
+	<div class="main">
+		{% include header.html %}
+		<div class="main wrapper clearfix">
+			<hr>		    
+			{{ content }}
+		</div>
+	</div>
+	{% include footer.html %}
 </body>
 </html>

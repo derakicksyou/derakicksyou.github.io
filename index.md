@@ -1,9 +1,12 @@
-![Jeffrey Larrimore Logo](http://jeffreylarrimore.com/resume/css/jeffreylarrimore-logo.svg) 
+---
+layout: default
+meta: Resume of Jeffrey Larrimore — Art Director & Designer
 
-Art Director & Designer <br> Jeffrey Larrimore
-===
-hello@jeffreylarrimore.com — San Francisco — (215) 586-3276
-
+title: Jeffrey Larrimore — Art Director & Designer
+name: Jeffrey Larrimore
+number: (215) 586-3276
+email: hello@jeffreylarrimore.com
+location: San Francisco
 ---
 
 ## Public Service
