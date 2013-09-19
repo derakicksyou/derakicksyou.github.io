@@ -1,5 +1,5 @@
 html, body {
-  background-color: #333;
+  background-color: #ccc;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -8,7 +8,6 @@ html, body {
   color: #111111; }
 
 .main {
-  background-color: #fce5ef;
   margin: auto;
   max-width: 920px;
   padding: 40px 0;
