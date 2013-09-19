@@ -43,3 +43,9 @@ Experienced in the use of the Adobe InDesign, Illustrator, Photoshop (CS5 and pr
 
 First Aid, CPR, AED Certified
 EHAP Certified
+
+		<a href="mailto:{{ page.email }}?Subject=Hello%20I%20like%20your%20stuff!">{{ page.email }} </a>
+		—
+		{{ page.location }}
+		—
+		{{ page.number }} 
