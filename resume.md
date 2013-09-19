@@ -1,7 +1,12 @@
-# Matthew Dera
-####Visual Design & Print Production
-####San Francisco, CA
-
+---
+layout: default
+meta: Visual Design & Print Production
+title: Matthew Dera — Visual Design & Print Production
+name: Matthew Dera
+location: San Francisco, CA
+number: I got your number
+email: justdera@gmail.com
+---
 ### EXPERIENCE
 
 ####Ryan Bansky Expert Tree Service
