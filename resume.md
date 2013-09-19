@@ -11,11 +11,12 @@ email: justdera@gmail.com
 
 ####Ryan Bansky Expert Tree Service
 **Secondary Climber • Lindenwold, NJ • August 2012 - August 2013**
+
 Trained in preservation and removals, chainsaw use, rigging, and use of mini skid steers and other light machinery. Also trained in climbing SRT/DRT and operating a bucket truck
 
 ####12 Oz Studios Tattooing and Piercing (March 2012 - July 2013)
 Brooklawn / Deptford, NJ
-**Position - Receptionis**t
+**Position - Receptionist** <br>
 Received all incoming phone calls, scheduled appointments, made sure customer paperwork was filled out correctly, and was responsible for general cleanliness of the shop
 
 ####Freelance Design (January 2006 - Present)
