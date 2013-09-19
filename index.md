@@ -1,5 +1,6 @@
 ---
 layout: default
+name: Matthew Dera
 ---
 
 **I'm a designer currently based out of San Francisco.** I have been focused mostly in print and apparel design in the past, but I've been bridging the gap into digital media. I currently work with Public Service, and we are available to design whatever you need us to.
