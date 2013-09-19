@@ -1,5 +1,6 @@
 html, body {
-  background-color: #ccc;
+  /*background-color: #ccc;*/
+  background: #ccc url('/img/MattySurf.jpg') no-repeat 0 0;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
