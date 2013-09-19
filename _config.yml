@@ -1,0 +1,11 @@
+name: Jeffrey Larrimore - Design & Direction
+markdown: redcarpet
+pygments: true
+
+navigation:
+- text: Design & Direction
+  url: /
+  index: home
+- text: About
+  url: /about/
+  index: about

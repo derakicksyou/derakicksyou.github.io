@@ -1,0 +1,30 @@
+---
+title: Jeffrey Larrimore — Design & Direction
+index: home
+layout: default
+---
+
+{% for post in site.posts %}
+<section class="project">
+    <section role="gallery">
+        <ul>
+            {% for image in post.images %}
+            <li class="media-tag-list">
+                <img class="loadingIMG" data-src="{{ image }}" title="{{ image }}" />
+             </li>
+            {% endfor %}
+        </ul>
+    </section>
+    
+    <section class="columns clear">
+        <article>
+            <h2>{{ post.title }} <a href="{{ post.url }}"><i class="icon-link"></i></a></h2>
+        </article>
+    
+        <article class="golden">
+            {{ post.content }}
+        </article>
+    </section>
+
+</section>
+{% endfor %}
