@@ -1,6 +1,6 @@
 html, body {
   /*background-color: #ccc;*/
-  background: #ccc url('/img/MattySurf.jpg') no-repeat 0 0;
+  background: #ccc url('/img/MattySurf.jpg') fixed center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
