@@ -1,0 +1,39 @@
+* { padding:0; margin:0; }
+
+.bg-full-size { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-surf { 
+    background:#939393 url(https://s3-us-west-1.amazonaws.com/mattdera.com/assets/MattySurf.jpg) no-repeat 0 0 fixed; 
+    background-size: cover;
+}
+.bg-trash { background:#402515 url() 0 0 fixed no-repeat; }
+.bg-white { background-color:#fff; }
+
+.type { font-family:'Josefin Slab', serif; }
+.type-size-1 { font-size:18px; font-weight: 600;  }
+.type-size-2 { font-size:36px; font-weight: 600; }
+.type-uppercase { text-transform:uppercase; }
+.type-center { text-align:center; }
+
+.link {text-decoration:none;}
+.visited {text-decoration:none;}
+.hover {text-decoration:none;}
+.active {text-decoration:none;}
+
+.color-blk { color:#000; }
+.color-white { color:#fff; }
+
+.list-no-style { list-style:none; padding:0;}
+.float-left { float:left; }
+.float-right { float:right; }
+.floater { display:inline-block; }
+.vert-align-center { vertical-align:middle; }
+.horz-align-center { text-align: center; }
+
+.full-width { width:100%; }
+
+.span { display:inline-block; vertical-align:middle }
