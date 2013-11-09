@@ -27,9 +27,14 @@ img { display:block; }
 }
 .bg-white { background-color:#fff; }
 
+/*     Type Styles      */
 .type { font-family:'Josefin Slab', serif; }
+.type-2 { font-family: 'Merriweather', serif; }
 .type-size-1 { font-size:18px; font-weight: 600;  }
 .type-size-2 { font-size:36px; font-weight: 600; }
+.type-size-3 { font-size:13px; font-weight: 400; }
+.type-size-4 { font-size:14px; font-weight: 400; }
+.italic {font-style: italic; }
 .type-uppercase { text-transform:uppercase; }
 .type-center { text-align:center; }
 
@@ -63,6 +68,7 @@ img { display:block; }
 /*   Margin   */
 .mar-top-btm-50 { margin-top: 50px; margin-bottom:50px; }
 .mar-lft-rt {margin-left: 40px; margin-right: 40px; }
+.mar-lft-rt-80 {margin-left: 80px; margin-right: 80px}
 .mar-top-1em7 { margin-top:1.7em; }
 /*
 margin:top right botton left;
